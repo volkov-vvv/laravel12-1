@@ -5,7 +5,23 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
     return view('main');
-});
+})->name('main');
+
+Route::get('/test', function () {
+    return view('test');
+})->name('test');
+
+Route::get('/login-main', function () {
+    return view('auth.login-main');
+})->name('login-main');
+
+Route::get('/admin', function () {
+    return view('admin.main.index');
+})->name('admin.main.index');
+
+
+
+
 
 Route::get('/dashboard', function () {
     return view('dashboard');

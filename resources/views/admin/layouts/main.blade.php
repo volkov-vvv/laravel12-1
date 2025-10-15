@@ -16,18 +16,18 @@
         <title>Главная</title>
         <meta property="og:title" content="Главная"/>
     @endif
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/css/adminlte.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/admin-lte@3.2/dist/js/adminlte.min.js"></script>
     @vite(['resources/sass/app.scss', 'resources/css/style.css', 'resources/js/app.js'])
 </head>
 <body>
-    <div id="id">
-        <div class="main">
-        @include('includes.header')
+   
+       
 
         @yield('content')
 
-        @include('includes.footer')
-        </div>
-    </div>
+        
+    
 </body>
 </html>

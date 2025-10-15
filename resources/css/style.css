@@ -1,0 +1,22 @@
+@font-face {
+  font-family: "Blogger Sans";
+  src: url("../fonts/bloggersans/Blogger_Sans.otf");
+}
+
+a.nav-link.active.mynew {
+  font-family: 'Blogger Sans', serif;
+  margin-right: 30px;
+
+}
+
+.mybtn {
+  margin-right: 10px;
+}
+
+a.textdecornone {
+  font-family: 'Blogger Sans', serif;
+  font-size: 1.5rem;
+  color: black;
+  margin-right: 10px;
+  text-decoration: none;
+}
